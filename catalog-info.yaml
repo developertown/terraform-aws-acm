@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-acm
+  description: AWS ACM terraform module
+  annotations:
+    github.com/project-slug: developertown/terraform-aws-acm
+  tags:
+    - terraform
+    - aws
+    - acm
+    - certificate
+spec:
+  type: terraform-module
+  lifecycle: production
+  owner: dt-devops
+  dependsOn:
+    - component:terraform-aws-route53
