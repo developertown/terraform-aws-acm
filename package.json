@@ -1,7 +1,7 @@
 {
   "name": "terraform-aws-acm",
   "version": "1.0.0",
-  "description": "Terraform module to provision an [`Elastic Load Balancing`](https://aws.amazon.com/en/alb/).",
+  "description": "Terraform module to provision an [`ACM Certificate`](https://aws.amazon.com/en/acm/).",
   "main": "index.js",
   "directories": {
     "example": "examples",
